@@ -3,6 +3,5 @@
 image = { source = "dockerfile", path = ".", tag = "pascal-lex-example" }
 
 run = [
-  "cd /usr/lib/python2.7&&python",
-  "export PATH=/usr/lib/python2.7:$PATH&&echo $PATH&&python",
+  "tree /usr/lib"
 ]
