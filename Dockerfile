@@ -1,3 +1,3 @@
-FROM ubuntu:16.04
+FROM python:3
 WORKDIR /app/
 COPY ./main.py ./
