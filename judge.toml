@@ -3,5 +3,6 @@
 image = { source = "dockerfile", path = ".", tag = "pascal-lex-example" }
 
 run = [
-  "python",
+  "whereis python",
+  "echo $PATH"
 ]
