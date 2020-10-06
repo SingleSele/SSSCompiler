@@ -157,6 +157,7 @@ def main():
             while not p.isEOF():
                 result = p.process()
                 if result == "Unknown":
+                    print(result)
                     raise UnknownTokenException
                 elif result:
                     print(result)
